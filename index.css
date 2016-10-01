@@ -47,3 +47,11 @@ p {
     width: 100%;
     z-index: 100;
 }
+
+.red {
+    color: 'red';
+}
+
+.green {
+    color: 'green';
+}
