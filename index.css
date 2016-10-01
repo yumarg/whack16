@@ -41,13 +41,6 @@ p {
   padding: 0;
 }
 
-#userp {
-    position: fixed;
-    background: #fff;
-    width: 100%;
-    z-index: 100;
-}
-
 .red {
     color: 'red';
 }

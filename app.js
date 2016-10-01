@@ -52,11 +52,10 @@ $(document).ready(function() {
 		    		newVanStop = {};
 		    		newVanStop.title = vanstops[vanstop].properties.name;
 		    		newVanStop.outline = vanstops[vanstop].geometry.coordinates.reverse();
-		    		newVanStop.times = [vanstops[vanstop].timeEarly, vanstops[vanstop].timeLate];
-		    		newVanStop.estTime = [3];
-		    		newVanStop.picture = '';
-		    		newVanStop.marker = new L.circleMarker(newVanStop.outline, {color: 'purple', fillColor: 'purple', radius: 10, weight: 1, opacity: 1}).bindPopup(newVanStop.title + " - " + vanstops[vanstop].properties.loc);
-		    		newVanStop.marker.addTo(map);
+		    		newVanStop.times = [vanstops[vanstop].properties.timeEarly, vanstops[vanstop].properties.timeLate];
+		    		newVanStop.estTime = 3;
+		    		newVanStop.picture = vanstops[vanstop].properties.picture;
+		    		newVanStop.marker = new L.circleMarker(newVanStop.outline, {color: 'purple', fillColor: 'purple', radius: 10, weight: 5, opacity: 1}).bindPopup(newVanStop.title + " - " + vanstops[vanstop].properties.loc);
 				  	newVanStop.marker.on('mouseover', function(e) {
 				  		this.openPopup();
 				  	});
@@ -64,9 +63,67 @@ $(document).ready(function() {
 				  		this.closePopup();
 				  	});
 				  	newVanStop.marker.on('click', function(e) {
-				  		$("#userInput").html("marker clicked");
+				  		$("#userInput").empty();
+				  		for (var marker in allVanStopMarkers) {
+				  			if (e.target == allVanStopMarkers[marker]) {
+				  				vanstop = campusVanStops[marker];
+				  				name = vanstop.title;
+				  				timeEarly = vanstop.times[0];
+				  				estimate = vanstop.estTime;
+				  				img = vanstop.picture;
+				  				infoToDisplay = "<h1>Wellesley College Access Van</h1>";
+				  				infoToDisplay += "<div><p class='userp'>" + name + "</p>";
+				  				if (img.length > 0) {
+				  					infoToDisplay += "<img src='" + img + "'/>"; 
+				  				}
+				  				randomTime = Math.floor(Math.random(1)*16);
+				  				dictOfTimes = {
+				  					0: ["06", convertToTwoDigits(String(timeEarly[1])), "PM"],
+				  					1: ["06", String(timeEarly[1]+30), "PM"],
+				  					2: ["07", convertToTwoDigits(String(timeEarly[1])), "PM"],
+				  					3: ["07", String(timeEarly[1]+30), "PM"],
+				  					4: ["08", convertToTwoDigits(String(timeEarly[1])), "PM"],
+				  					5: ["08", String(timeEarly[1]+30), "PM"],
+				  					6: ["09", convertToTwoDigits(String(timeEarly[1])), "PM"],
+				  					7: ["09", String(timeEarly[1]+30), "PM"],
+				  					8: ["10", convertToTwoDigits(String(timeEarly[1])), "PM"],
+				  					9: ["10", String(timeEarly[1]+30), "PM"],
+				  					10: ["11", convertToTwoDigits(String(timeEarly[1])), "PM"],
+				  					11: ["11", String(timeEarly[1]+30), "PM"],
+				  					12: ["12", convertToTwoDigits(String(timeEarly[1])), "AM"],
+				  					13: ["12", String(timeEarly[1]+30), "AM"],
+				  					14: ["01", convertToTwoDigits(String(timeEarly[1])), "AM"],
+				  					15: ["01", String(timeEarly[1]+30), "AM"]
+				  				};
+
+				  				function convertToTwoDigits(string) {
+				  					if (string.length == 1) {
+				  						return "0" + string;
+				  					}
+				  					else {
+				  						return string;
+				  					}
+				  				}
+
+				  				function setLateOrEarly() {
+				  					prob = Math.random(1);
+				  					if (prob < 0.5) {
+				  						return ["red", "late"];
+				  					}
+				  					else {
+				  						return ["green", "early"];
+				  					}
+				  				}
+				  				lateOrEarly = setLateOrEarly();
+				  				infoToDisplay += "<p class='userp'>Scheduled arrival time: " + dictOfTimes[randomTime][0] + ":" + dictOfTimes[randomTime][1] + " " + dictOfTimes[randomTime][2] + "</p>";
+				  				infoToDisplay += "<p class='userp " + lateOrEarly[0] + "'>Estimated time until arrival: " + String(Math.ceil(Math.random(1)*5)) + " min " + lateOrEarly[1] + "</p></div>";
+				  				console.log(infoToDisplay);
+				  				$("#userInput").append(infoToDisplay);
+				  			}
+				  		}
 				  	});
 		    		allVanStopMarkers.push(newVanStop.marker);
+		    		newVanStop.marker.addTo(map);	    		
 		    		campusVanStops.push(newVanStop);		    		
 		    	}
 		    }
