@@ -4,7 +4,7 @@
   	{ "type": "Feature",
   	  "geometry": {
   	  	"type": "Point",
-  	  	"coordinates": [42.290875, -71.305411]
+  	  	"coordinates": [-71.305411, 42.290875]
   	  },
   	  "properties": {
   	  	"name": "Schneider",
@@ -17,7 +17,7 @@
   	{ "type": "Feature",
   	  "geometry": {
   	  	"type": "Point",
-  	  	"coordinates": [42.291389, -71.302990]
+  	  	"coordinates": [-71.302990, 42.291389]
   	  },
   	  "properties": {
   	  	"name": "Stone-Davis",
@@ -30,7 +30,7 @@
   	{ "type": "Feature",
   	  "geometry": {
   	  	"type": "Point",
-  	  	"coordinates": [42.292122, -71.300121]
+  	  	"coordinates": [-71.300121, 42.292122]
   	  },
   	  "properties": {
   	  	"name": "Bates/McAfee",
@@ -43,7 +43,7 @@
   	{ "type": "Feature",
   	  "geometry": {
   	  	"type": "Point",
-  	  	"coordinates": [42.294155, -71.302712]
+  	  	"coordinates": [-71.302712, 42.294155]
   	  },
   	  "properties": {
   	  	"name": "Science Center",
@@ -56,7 +56,7 @@
   	{ "type": "Feature",
   	  "geometry": {
   	  	"type": "Point",
-  	  	"coordinates": [42.293120, -71.305032]
+  	  	"coordinates": [-71.305032, 42.293120]
   	  },
   	  "properties": {
   	  	"name": "Pendleton/GRM",
@@ -69,7 +69,7 @@
   	{ "type": "Feature",
   	  "geometry": {
   	  	"type": "Point",
-  	  	"coordinates": [42.292639, -71.309295]
+  	  	"coordinates": [-71.309295, 42.292639]
   	  },
   	  "properties": {
   	  	"name": "Tower Complex",
@@ -82,7 +82,7 @@
   	{ "type": "Feature",
   	  "geometry": {
   	  	"type": "Point",
-  	  	"coordinates": [42.293392, -71.307681]
+  	  	"coordinates": [-71.307681, 42.293392]
   	  },
   	  "properties": {
   	  	"name": "Davis Plaza",
@@ -95,7 +95,7 @@
   	{ "type": "Feature",
   	  "geometry": {
   	  	"type": "Point",
-  	  	"coordinates": [42.294858, -71.309933]
+  	  	"coordinates": [-71.309933, 42.294858]
   	  },
   	  "properties": {
   	  	"name": "Alumnae Hall/Campus Center",
@@ -108,7 +108,7 @@
   	{ "type": "Feature",
   	  "geometry": {
   	  	"type": "Point",
-  	  	"coordinates": [42.295184, -71.313303]
+  	  	"coordinates": [-71.313303, 42.295184]
   	  },
   	  "properties": {
   	  	"name": "DC Lot",
@@ -121,7 +121,7 @@
   	{ "type": "Feature",
   	  "geometry": {
   	  	"type": "Point",
-  	  	"coordinates": [42.295445, -71.307912]
+  	  	"coordinates": [-71.307912, 42.295445]
   	  },
   	  "properties": {
   	  	"name": "Quad",
@@ -134,7 +134,7 @@
   	{ "type": "Feature",
   	  "geometry": {
   	  	"type": "Point",
-  	  	"coordinates": [42.295716, -71.306419]
+  	  	"coordinates": [-71.306419, 42.295716]
   	  },
   	  "properties": {
   	  	"name": "Munger",
@@ -147,7 +147,7 @@
   	{ "type": "Feature",
   	  "geometry": {
   	  	"type": "Point",
-  	  	"coordinates": [42.294995, -71.299510]
+  	  	"coordinates": [-71.299510, 42.294995]
   	  },
   	  "properties": {
   	  	"name": "Page School (Child Study Center)",
@@ -160,7 +160,7 @@
   	{ "type": "Feature",
   	  "geometry": {
   	  	"type": "Point",
-  	  	"coordinates": [42.290594, -71.302130]
+  	  	"coordinates": [-71.302130, 42.290594]
   	  },
   	  "properties": {
   	  	"name": "Cedar Lodge",
@@ -173,7 +173,7 @@
   	{ "type": "Feature",
   	  "geometry": {
   	  	"type": "Point",
-  	  	"coordinates": [42.288040, -71.297213]
+  	  	"coordinates": [-71.297213, 42.288040]
   	  },
   	  "properties": {
   	  	"name": "French House",
@@ -186,7 +186,7 @@
   	{ "type": "Feature",
   	  "geometry": {
   	  	"type": "Point",
-  	  	"coordinates": [42.290969, -71.301732]
+  	  	"coordinates": [-71.301732, 42.290969]
   	  },
   	  "properties": {
   	  	"name": "Dower",
@@ -195,6 +195,6 @@
   	  	"timeEarly": [18, 25],
   	  	"timeLate": [1, 55]
   	  }
-  	},   	
+  	} 	
   ]
 }

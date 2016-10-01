@@ -47,7 +47,6 @@ $(document).ready(function() {
 		    success: function (data) {
 		        geojsonLayer = L.geoJson(data, {onEachFeature: attachPopup}).addTo(map);		    	
 		    	vanstops = data.features;
-		    	console.log(vanstops);
 		    	for (var vanstop in vanstops) {
 		    		newVanStop = {};
 		    		newVanStop.title = vanstops[vanstop].properties.name;
@@ -62,8 +61,7 @@ $(document).ready(function() {
 	    function attachPopup(feature, layer) {
 	        layer.bindPopup(feature.properties.name + " - " + feature.properties.loc);
 	    }
-	}	
-	// console.log(campusVanStops);
+	}
 
 	$("userInput").niceScroll({mousescrollstep:40, hidecursordelay: 200, scrollspeed: 40, cursorwidth: 7, cursorcolor: "#157195", cursoropacitymax: .7, cursoropacitymin: .3});
 	initialize();
