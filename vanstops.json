@@ -1,0 +1,200 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+  	{ "type": "Feature",
+  	  "geometry": {
+  	  	"type": "Point",
+  	  	"coordinates": [42.290875, -71.305411]
+  	  },
+  	  "properties": {
+  	  	"name": "Schneider",
+  	  	"id": 1,
+  	  	"loc": "Billings front door",
+  	  	"timeEarly": [18, 0],
+  	  	"timeLate": [1, 30]
+  	  }
+  	},   
+  	{ "type": "Feature",
+  	  "geometry": {
+  	  	"type": "Point",
+  	  	"coordinates": [42.291389, -71.302990]
+  	  },
+  	  "properties": {
+  	  	"name": "Stone-Davis",
+  	  	"id": 2,
+  	  	"loc": "front door",
+  	  	"timeEarly": [18, 1],
+  	  	"timeLate": [1, 31]
+  	  }
+  	},
+  	{ "type": "Feature",
+  	  "geometry": {
+  	  	"type": "Point",
+  	  	"coordinates": [42.292122, -71.300121]
+  	  },
+  	  "properties": {
+  	  	"name": "Bates/McAfee",
+  	  	"id": 3,
+  	  	"loc": "front door",
+  	  	"timeEarly": [18, 3],
+  	  	"timeLate": [1, 33]
+  	  }
+  	},
+  	{ "type": "Feature",
+  	  "geometry": {
+  	  	"type": "Point",
+  	  	"coordinates": [42.294155, -71.302712]
+  	  },
+  	  "properties": {
+  	  	"name": "Science Center",
+  	  	"id": 4,
+  	  	"loc": "Sage Lounge door",
+  	  	"timeEarly": [18, 5],
+  	  	"timeLate": [1, 35]
+  	  }
+  	},
+  	{ "type": "Feature",
+  	  "geometry": {
+  	  	"type": "Point",
+  	  	"coordinates": [42.293120, -71.305032]
+  	  },
+  	  "properties": {
+  	  	"name": "Pendleton/GRM",
+  	  	"id": 5,
+  	  	"loc": "between PND and FND arch",
+  	  	"timeEarly": [18, 8],
+  	  	"timeLate": [1, 38]
+  	  }
+  	},
+  	{ "type": "Feature",
+  	  "geometry": {
+  	  	"type": "Point",
+  	  	"coordinates": [42.292639, -71.309295]
+  	  },
+  	  "properties": {
+  	  	"name": "Tower Complex",
+  	  	"id": 6,
+  	  	"loc": "Roadway by Tower West door",
+  	  	"timeEarly": [18, 9],
+  	  	"timeLate": [1, 39]
+  	  }
+  	},
+  	{ "type": "Feature",
+  	  "geometry": {
+  	  	"type": "Point",
+  	  	"coordinates": [42.293392, -71.307681]
+  	  },
+  	  "properties": {
+  	  	"name": "Davis Plaza",
+  	  	"id": 7,
+  	  	"loc": "road toward Shakes house",
+  	  	"timeEarly": [18, 10],
+  	  	"timeLate": [1, 40]
+  	  }
+  	},	
+  	{ "type": "Feature",
+  	  "geometry": {
+  	  	"type": "Point",
+  	  	"coordinates": [42.294858, -71.309933]
+  	  },
+  	  "properties": {
+  	  	"name": "Alumnae Hall/Campus Center",
+  	  	"id": 8,
+  	  	"loc": "Circle in front of Alumnae Hall",
+  	  	"timeEarly": [18, 12],
+  	  	"timeLate": [1, 42]
+  	  }
+  	},
+  	{ "type": "Feature",
+  	  "geometry": {
+  	  	"type": "Point",
+  	  	"coordinates": [42.295184, -71.313303]
+  	  },
+  	  "properties": {
+  	  	"name": "DC Lot",
+  	  	"id": 9,
+  	  	"loc": "Lots #1, #2, #3 in that order",
+  	  	"timeEarly": [18, 15],
+  	  	"timeLate": [1, 45]
+  	  }
+  	},  	
+  	{ "type": "Feature",
+  	  "geometry": {
+  	  	"type": "Point",
+  	  	"coordinates": [42.295445, -71.307912]
+  	  },
+  	  "properties": {
+  	  	"name": "Quad",
+  	  	"id": 10,
+  	  	"loc": "Rt. 135 Entrance to Quad",
+  	  	"timeEarly": [18, 18],
+  	  	"timeLate": [1, 48]
+  	  }
+  	},  
+  	{ "type": "Feature",
+  	  "geometry": {
+  	  	"type": "Point",
+  	  	"coordinates": [42.295716, -71.306419]
+  	  },
+  	  "properties": {
+  	  	"name": "Munger",
+  	  	"id": 11,
+  	  	"loc": "Rt. 135 door",
+  	  	"timeEarly": [18, 19],
+  	  	"timeLate": [1, 49]
+  	  }
+  	},
+  	{ "type": "Feature",
+  	  "geometry": {
+  	  	"type": "Point",
+  	  	"coordinates": [42.294995, -71.299510]
+  	  },
+  	  "properties": {
+  	  	"name": "Page School (Child Study Center)",
+  	  	"id": 12,
+  	  	"loc": "parking lot",
+  	  	"timeEarly": [18, 20],
+  	  	"timeLate": [1, 50]
+  	  }
+  	},  
+  	{ "type": "Feature",
+  	  "geometry": {
+  	  	"type": "Point",
+  	  	"coordinates": [42.290594, -71.302130]
+  	  },
+  	  "properties": {
+  	  	"name": "Cedar Lodge",
+  	  	"id": 13,
+  	  	"loc": "front door",
+  	  	"timeEarly": [18, 22],
+  	  	"timeLate": [1, 52]
+  	  }
+  	},
+  	{ "type": "Feature",
+  	  "geometry": {
+  	  	"type": "Point",
+  	  	"coordinates": [42.288040, -71.297213]
+  	  },
+  	  "properties": {
+  	  	"name": "French House",
+  	  	"id": 14,
+  	  	"loc": "front door",
+  	  	"timeEarly": [18, 23],
+  	  	"timeLate": [1, 53]
+  	  }
+  	},
+  	{ "type": "Feature",
+  	  "geometry": {
+  	  	"type": "Point",
+  	  	"coordinates": [42.290969, -71.301732]
+  	  },
+  	  "properties": {
+  	  	"name": "Dower",
+  	  	"id": 15,
+  	  	"loc": "front door",
+  	  	"timeEarly": [18, 25],
+  	  	"timeLate": [1, 55]
+  	  }
+  	},   	
+  ]
+}
