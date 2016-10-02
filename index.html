@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>Wellesley College Accessibility Campus Map</title>
+	<title>Wellesley College Access Van</title>
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css">
 	<link rel="stylesheet" href="http://leaflet.github.io/Leaflet.label/leaflet.label.css">
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
@@ -15,13 +15,23 @@
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
 	<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="http://leaflet.github.io/Leaflet.label/leaflet.label.js"></script>	
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>	
-	<script type="text/javascript" src="nicescroll.min.js"></script>
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=false"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
 	<script type="text/javascript" src="app.js"></script>
 </head>
 <body>
 	<div id="map"></div>
-	<div id="userInput"></div>
+	<div id="userInput">
+		<table id="schedule" class="container">
+			<p id='display' style='font-weight: bold; color: #126180; font-size: 20px; margin-bottom: 15px'><span style='font-size: 24px'>WELLESLEY COLLEGE</span> <br> ACCESS VAN</p>
+			<thead>
+				<tr>
+					<th>Van Stop</th>
+					<th>Earliest</th>
+					<th>Latest</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>		
+	</div>
 </body>
 </html>

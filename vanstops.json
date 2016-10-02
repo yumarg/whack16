@@ -10,8 +10,8 @@
   	  	"name": "Schneider",
   	  	"id": 1,
   	  	"loc": "Billings front door",
-  	  	"timeEarly": [18, 0],
-  	  	"timeLate": [1, 30],
+  	  	"timeEarly": ["06", "00", "PM"],
+  	  	"timeLate": ["01", "30", "AM"],
   	  	"picture": ""
   	  }
   	},   
@@ -24,8 +24,8 @@
   	  	"name": "Stone-Davis",
   	  	"id": 2,
   	  	"loc": "front door",
-  	  	"timeEarly": [18, 1],
-  	  	"timeLate": [1, 31],
+  	  	"timeEarly": ["06", "01", "PM"],
+  	  	"timeLate": ["01", "31", "AM"],
   	  	"picture": ""
   	  }
   	},
@@ -38,8 +38,8 @@
   	  	"name": "Bates/McAfee",
   	  	"id": 3,
   	  	"loc": "front door",
-  	  	"timeEarly": [18, 3],
-  	  	"timeLate": [1, 33],
+  	  	"timeEarly": ["06", "03", "PM"],
+  	  	"timeLate": ["01", "33", "AM"],
   	  	"picture": "./Bates-McAfee Stop.png"
   	  }
   	},
@@ -52,8 +52,8 @@
   	  	"name": "Science Center",
   	  	"id": 4,
   	  	"loc": "Sage Lounge door",
-  	  	"timeEarly": [18, 5],
-  	  	"timeLate": [1, 35],
+  	  	"timeEarly": ["06", "05", "PM"],
+  	  	"timeLate": ["01", "35", "AM"],
   	  	"picture": "./Science Center Stop.png"
   	  }
   	},
@@ -66,8 +66,8 @@
   	  	"name": "Pendleton/GRM",
   	  	"id": 5,
   	  	"loc": "between PND and FND arch",
-  	  	"timeEarly": [18, 8],
-  	  	"timeLate": [1, 38],
+  	  	"timeEarly": ["06", "08", "PM"],
+  	  	"timeLate": ["01", "38", "AM"],
   	  	"picture": ""
   	  }
   	},
@@ -80,8 +80,8 @@
   	  	"name": "Tower Complex",
   	  	"id": 6,
   	  	"loc": "Roadway by Tower West door",
-  	  	"timeEarly": [18, 9],
-  	  	"timeLate": [1, 39],
+  	  	"timeEarly": ["06", "09", "PM"],
+  	  	"timeLate": ["01", "39", "AM"],
   	  	"picture": ""
   	  }
   	},
@@ -94,8 +94,8 @@
   	  	"name": "Davis Plaza",
   	  	"id": 7,
   	  	"loc": "road toward Shakes house",
-  	  	"timeEarly": [18, 10],
-  	  	"timeLate": [1, 40],
+  	  	"timeEarly": ["06", "10", "PM"],
+  	  	"timeLate": ["01", "40", "AM"],
   	  	"picture": ""
   	  }
   	},	
@@ -108,8 +108,8 @@
   	  	"name": "Alumnae Hall/Campus Center",
   	  	"id": 8,
   	  	"loc": "Circle in front of Alumnae Hall",
-  	  	"timeEarly": [18, 12],
-  	  	"timeLate": [1, 42],
+  	  	"timeEarly": ["06", "12", "PM"],
+  	  	"timeLate": ["01", "42", "AM"],
 		"picture": "./Alumnae Stop.png"  	  	
   	  }
   	},
@@ -122,8 +122,8 @@
   	  	"name": "DC Lot",
   	  	"id": 9,
   	  	"loc": "Lots #1, #2, #3 in that order",
-  	  	"timeEarly": [18, 15],
-  	  	"timeLate": [1, 45],
+  	  	"timeEarly": ["06", "15", "PM"],
+  	  	"timeLate": ["01", "45", "AM"],
   	  	"picture": ""
   	  }
   	},  	
@@ -136,8 +136,8 @@
   	  	"name": "Quad",
   	  	"id": 10,
   	  	"loc": "Rt. 135 Entrance to Quad",
-  	  	"timeEarly": [18, 18],
-  	  	"timeLate": [1, 48],
+  	  	"timeEarly": ["06", "16", "PM"],
+  	  	"timeLate": ["01", "48", "AM"],
   	  	"picture": ""
   	  }
   	},  
@@ -150,8 +150,8 @@
   	  	"name": "Munger",
   	  	"id": 11,
   	  	"loc": "Rt. 135 door",
-  	  	"timeEarly": [18, 19],
-  	  	"timeLate": [1, 49],
+  	  	"timeEarly": ["06", "19", "PM"],
+  	  	"timeLate": ["01", "49", "AM"],
   	  	"picture": ""
   	  }
   	},
@@ -164,8 +164,8 @@
   	  	"name": "Page School (Child Study Center)",
   	  	"id": 12,
   	  	"loc": "parking lot",
-  	  	"timeEarly": [18, 20],
-  	  	"timeLate": [1, 50],
+  	  	"timeEarly": ["06", "20", "PM"],
+  	  	"timeLate": ["01", "50", "AM"],
   	  	"picture": ""
   	  }
   	},  
@@ -178,8 +178,8 @@
   	  	"name": "Cedar Lodge",
   	  	"id": 13,
   	  	"loc": "front door",
-  	  	"timeEarly": [18, 22],
-  	  	"timeLate": [1, 52],
+  	  	"timeEarly": ["06", "22", "PM"],
+  	  	"timeLate": ["01", "52", "AM"],
   	  	"picture": ""
   	  }
   	},
@@ -192,8 +192,8 @@
   	  	"name": "French House",
   	  	"id": 14,
   	  	"loc": "front door",
-  	  	"timeEarly": [18, 23],
-  	  	"timeLate": [1, 53],
+  	  	"timeEarly": ["06", "23", "PM"],
+  	  	"timeLate": ["01", "53", "AM"],
   	  	"picture": ""
   	  }
   	},
@@ -206,8 +206,8 @@
   	  	"name": "Dower",
   	  	"id": 15,
   	  	"loc": "front door",
-  	  	"timeEarly": [18, 25],
-  	  	"timeLate": [1, 55],
+  	  	"timeEarly": ["06", "25", "PM"],
+  	  	"timeLate": ["01", "55", "AM"],
   	  	"picture": ""
   	  }
   	} 	

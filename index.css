@@ -5,7 +5,7 @@
   }
 
 html, body {
-    font-family: avenir;        
+    font-family: avenir;
     margin: 0;
     padding: 0;
 }
@@ -23,16 +23,16 @@ html, body {
 
 #map {
     position: absolute;
-    width: 960px;
-    height: 595px;
+    width: 940px;
+    height: 679px;
 }
 
 #userInput {
     position: absolute;
-    margin-left: 960px;
-    max-width: 363px;
-    max-height: 595px;
-    overflow-y: auto;
+    margin-left: 950px;
+    max-width: 320px;
+    max-height: 679px;
+    overflow-y: hidden;
     font-size: 14px;
 }
 
@@ -41,10 +41,46 @@ p {
   padding: 0;
 }
 
-.red {
-    color: 'red';
+.pic {
+    margin: 20px 0px;
+    padding: 5px 0px;
+    border-radius: 3px 3px 3px 3px;
 }
 
-.green {
-    color: 'green';
+#display {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+#info {
+    text-align: center;
+    margin: 90px auto 0 auto;
+    font-size: 15px;
+}
+
+#schedule {
+    width: 320px;
+    text-align: left;
+    vertical-align: middle;
+    margin: 90px auto 0 auto;
+    border-spacing: 0;
+}
+
+#schedule tr {
+    background: #fff;
+}
+
+#schedule th {
+    padding: 3px;
+    font-size: 15px;
+}
+
+#schedule td {
+    padding: 2px;
+    font-size: 13px;
+}
+
+#schedule tr:hover {
+    background-color: #eee;
 }
